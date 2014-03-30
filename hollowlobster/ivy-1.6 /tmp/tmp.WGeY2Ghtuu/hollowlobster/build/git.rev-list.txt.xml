@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright © (C) 2014
+    Emory Hughes Merryman, III
+    emory.merryman@gmail.com
+-->
+<!--
+    This file is part of HollowLobster.
+
+    HollowLobster is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    HollowLobster is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with HollowLobster.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<ivy-module version="2.0">
+    <info organisation="breezemodern" module="hollowlobster" revision="1.6 /tmp/tmp.WGeY2Ghtuu/hollowlobster/build/git.rev-list.txt" status="integration" publication="20140330070323"/>
+    <configurations>
+        <conf name="runtime" description=""/>
+    </configurations>
+    <publications defaultconf="runtime">
+      <artifact type="zip"/>
+    </publications>
+</ivy-module>
