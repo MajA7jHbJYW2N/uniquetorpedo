@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright © (C) 2014
+    Emory Hughes Merryman, III
+    emory.merryman@gmail.com
+-->
+<!--
+    This file is part of EasternCrayon.
+
+    EasternCrayon is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    EasternCrayon is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with EasternCrayon.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<ivy-module version="2.0">
+    <info organisation="breezemodern" module="easterncrayon" revision="1.34" status="integration" publication="20140414193120"/>
+    <configurations>
+      <conf name="runtime"/>
+      <conf name="_tree_" visibility="private"/>
+      <conf name="_checkstyle_" visibility="private"/>
+      <conf name="_hollowlobster_" visibility="private"/>
+    </configurations>
+    <publications defaultconf="runtime">
+      <artifact type="jar"/>
+    </publications>
+    <dependencies>
+      <dependency org="com.sun" name="tools" rev="">
+	<conf name="runtime">
+	  <mapped name="default"/>
+	</conf>
+      </dependency>
+      <dependency org="com.puppycrawl.tools" name="checkstyle" rev="5.7">
+	<conf name="_checkstyle_">
+	  <mapped name="default"/>
+	</conf>
+      </dependency>
+      <dependency org="breezemodern" name="hollowlobster" rev="3.17">
+	<conf name="_hollowlobster_">
+	  <mapped name="conf"/>
+	</conf>
+      </dependency>
+    </dependencies>
+</ivy-module>
