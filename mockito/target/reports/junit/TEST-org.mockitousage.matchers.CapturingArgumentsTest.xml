@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="2Pv9VNP3vrkMb" name="org.mockitousage.matchers.CapturingArgumentsTest" tests="17" time="0.154" timestamp="2014-04-14T13:40:49">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="lib.dir" value="lib" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Linux" />
+    <property name="sun.boot.class.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes" />
+    <property name="test.reports.dir" value="target/reports/junit" />
+    <property name="sun.desktop" value="gnome" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/usr/share/ant" />
+    <property name="java.runtime.version" value="1.7.0_25-b30" />
+    <property name="user.name" value="ytvlhk2j9ncd7" />
+    <property name="test.classes.dir" value="target/test-classes" />
+    <property name="ant.file.type.mockito" value="file" />
+    <property name="jar.all.sources" value="mockito-all-1.9.5-sources.jar" />
+    <property name="user.language" value="en" />
+    <property name="jar.core.javadoc" value="mockito-core-1.9.5-javadoc.jar" />
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64" />
+    <property name="lib.dir.test" value="lib/test" />
+    <property name="maven.repository.dir" value="/home/ytvlhk2j9ncd7/working/mockito/maven/repository" />
+    <property name="ant.project.default-target" value="all" />
+    <property name="ant.project.name" value="mockito" />
+    <property name="java.version" value="1.7.0_25" />
+    <property name="version" value="1.9.5" />
+    <property name="user.timezone" value="" />
+    <property name="jar.all.osgified" value="mockito-all-1.9.5.jar-osgified" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="test.src.dir" value="test" />
+    <property name="java.endorsed.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/endorsed" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="51.0" />
+    <property name="jar.core" value="mockito-core-1.9.5.jar" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="/usr/lib/jvm/java-7-openjdk-amd64/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="/home/ytvlhk2j9ncd7/working/mockito/build.xml" />
+    <property name="os.version" value="3.8.0-34-generic" />
+    <property name="jar.all.javadoc" value="mockito-all-1.9.5-javadoc.jar" />
+    <property name="path.separator" value=":" />
+    <property name="java.vm.version" value="23.7-b01" />
+    <property name="snapshots" value="target/snapshots" />
+    <property name="ant.library.dir" value="/usr/share/ant/lib" />
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="jar.tests" value="mockito-tests.jar" />
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit" />
+    <property name="pmd.reports.dir" value="target/reports/pmd" />
+    <property name="zip" value="mockito-1.9.5.zip" />
+    <property name="user.home" value="/home/ytvlhk2j9ncd7" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib/jni:/lib:/usr/lib" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="lib.dir.compile" value="lib/compile" />
+    <property name="ant.file.mockito" value="/home/ytvlhk2j9ncd7/working/mockito/build.xml" />
+    <property name="lib.dir.sources" value="lib/sources" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=/home/ytvlhk2j9ncd7/working/mockito/junittestcases664756883834038293.properties filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/home/ytvlhk2j9ncd7/working/mockito/target/reports/junit/IGNORETHIS.xml crashfile=/home/ytvlhk2j9ncd7/working/mockito/junitvmwatcher4144657256558392318.properties propsfile=/home/ytvlhk2j9ncd7/working/mockito/junit2282604956440377405.properties" />
+    <property name="java.class.path" value="/home/ytvlhk2j9ncd7/working/mockito/lib/test/fest-assert-1.3.jar:/home/ytvlhk2j9ncd7/working/mockito/lib/test/fest-util-1.1.4.jar:/home/ytvlhk2j9ncd7/working/mockito/lib/test/powermock-reflect-1.2.5.jar:/home/ytvlhk2j9ncd7/working/mockito/lib/run/com.springsource.org.hamcrest.core-1.1.0.jar:/home/ytvlhk2j9ncd7/working/mockito/lib/run/objenesis-2.1.jar:/home/ytvlhk2j9ncd7/working/mockito/lib/compile/junit-4.10.jar:/home/ytvlhk2j9ncd7/working/mockito/lib/repackaged/cglib-and-asm-1.0.jar:/home/ytvlhk2j9ncd7/working/mockito/target/classes:/home/ytvlhk2j9ncd7/working/mockito/target/test-classes:/usr/share/ant/lib/junit.jar:/usr/share/java/ant-launcher-1.8.2.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on May 18 2012" />
+    <property name="lib.dir.run" value="lib/run" />
+    <property name="lib.dir.repackaged" value="lib/repackaged" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="test.reports.dir.html" value="target/reports/junit.html" />
+    <property name="lib.dir.build" value="lib/build" />
+    <property name="java.io.tmpdir" value="/tmp" />
+    <property name="jar.all" value="mockito-all-1.9.5.jar" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="src.classes.dir" value="target/classes" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext" />
+    <property name="user.dir" value="/home/ytvlhk2j9ncd7/working/mockito" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="basedir" value="/home/ytvlhk2j9ncd7/working/mockito" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="jar.core.osgified" value="mockito-core-1.9.5.jar-osgified" />
+    <property name="ant.core.lib" value="/usr/share/ant/lib/ant.jar" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="target.dir" value="target" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="src.dir" value="src" />
+    <property name="javadoc.dir" value="target/javadoc" />
+    <property name="ant.project.invoked-targets" value="all" />
+    <property name="jar.core.sources" value="mockito-core-1.9.5-sources.jar" />
+  </properties>
+  <testcase classname="org.mockitousage.matchers.CapturingArgumentsTest" name="should_capture_byte_vararg_by_creating_captor_with_primitive" time="0.003" />
+  <testcase classname="org.mockitousage.matchers.CapturingArgumentsTest" name="should_capture_byte_vararg_by_creating_captor_with_primitive_wrapper" time="0.002" />
+  <testcase classname="org.mockitousage.matchers.CapturingArgumentsTest" name="should_capture_vararg" time="0.002" />
+  <testcase classname="org.mockitousage.matchers.CapturingArgumentsTest" name="should_capture_all_vararg" time="0.002" />
+  <testcase classname="org.mockitousage.matchers.CapturingArgumentsTest" name="should_capture_one_arg_even_when_using_vararg_captor_on_nonvararg_method" time="0.002" />
+  <testcase classname="org.mockitousage.matchers.CapturingArgumentsTest" name="captures_correclty_when_captor_used_multiple_times" time="0.002" />
+  <testcase classname="org.mockitousage.matchers.CapturingArgumentsTest" name="should_allow_assertions_on_last_argument" time="0.002" />
+  <testcase classname="org.mockitousage.matchers.CapturingArgumentsTest" name="should_allow_assertions_on_captured_argument" time="0.002" />
+  <testcase classname="org.mockitousage.matchers.CapturingArgumentsTest" name="should_allow_assertions_on_all_captured_arguments" time="0.003" />
+  <testcase classname="org.mockitousage.matchers.CapturingArgumentsTest" name="should_print_captor_matcher" time="0.002" />
+  <testcase classname="org.mockitousage.matchers.CapturingArgumentsTest" name="should_allow_assertions_on_captured_null" time="0.002" />
+  <testcase classname="org.mockitousage.matchers.CapturingArgumentsTest" name="should_allow_capturing_for_stubbing" time="0.002" />
+  <testcase classname="org.mockitousage.matchers.CapturingArgumentsTest" name="should_capture_when_stubbing_only_when_entire_invocation_matches" time="0.002" />
+  <testcase classname="org.mockitousage.matchers.CapturingArgumentsTest" name="should_say_something_smart_when_misused" time="0.003" />
+  <testcase classname="org.mockitousage.matchers.CapturingArgumentsTest" name="should_capture_when_full_arg_list_matches" time="0.002" />
+  <testcase classname="org.mockitousage.matchers.CapturingArgumentsTest" name="should_capture_int_by_creating_captor_with_primitive_wrapper" time="0.003" />
+  <testcase classname="org.mockitousage.matchers.CapturingArgumentsTest" name="should_capture_int_by_creating_captor_with_primitive" time="0.002" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

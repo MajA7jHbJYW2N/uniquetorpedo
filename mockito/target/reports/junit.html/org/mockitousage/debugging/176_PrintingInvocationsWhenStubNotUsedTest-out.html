@@ -1,0 +1,22 @@
+<html xmlns:lxslt="http://xml.apache.org/xslt" xmlns:stringutils="xalan://org.apache.tools.ant.util.StringUtils">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Standard Output from PrintingInvocationsWhenStubNotUsedTest</title>
+</head>
+<body>
+<pre>********************************
+*** Mockito interactions log ***
+********************************
+mock.giveMeSomeString("arg");
+ invoked: -&gt; at org.mockitousage.debugging.PrintingInvocationsWhenStubNotUsedTest.businessLogicWithAsking(PrintingInvocationsWhenStubNotUsedTest.java:34)
+mockTwo.doSomething(null);
+ invoked: -&gt; at org.mockitousage.debugging.PrintingInvocationsWhenStubNotUsedTest.businessLogicWithTelling(PrintingInvocationsWhenStubNotUsedTest.java:39)
+********************************
+***       Unused stubs       ***
+********************************
+mock.giveMeSomeString("different arg");
+ stubbed: -&gt; at org.mockitousage.debugging.PrintingInvocationsWhenStubNotUsedTest.performStubbing(PrintingInvocationsWhenStubNotUsedTest.java:30)
+
+</pre>
+</body>
+</html>

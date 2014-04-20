@@ -1,0 +1,21 @@
+<html xmlns:lxslt="http://xml.apache.org/xslt" xmlns:stringutils="xalan://org.apache.tools.ant.util.StringUtils">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Standard Output from DescriptiveMessagesWhenVerificationFailsTest</title>
+</head>
+<body>
+<pre>Wanted but not invoked:
+iMethods.threeArgumentMethod(12, foo, "xx");
+-&gt; at org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest.should_print_method_name_and_arguments_of_other_interactions_with_different_methods(DescriptiveMessagesWhenVerificationFailsTest.java:371)
+
+However, there were other interactions with this mock:
+iMethods.arrayMethod(["a", "b", "c"]);
+-&gt; at org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest.should_print_method_name_and_arguments_of_other_interactions_with_different_methods(DescriptiveMessagesWhenVerificationFailsTest.java:368)
+
+iMethods.forByte(25);
+-&gt; at org.mockitousage.verification.DescriptiveMessagesWhenVerificationFailsTest.should_print_method_name_and_arguments_of_other_interactions_with_different_methods(DescriptiveMessagesWhenVerificationFailsTest.java:369)
+
+
+</pre>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<html xmlns:lxslt="http://xml.apache.org/xslt" xmlns:stringutils="xalan://org.apache.tools.ant.util.StringUtils">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Standard Output from PrintingInvocationsWhenEverythingOkTest</title>
+</head>
+<body>
+<pre>********************************
+*** Mockito interactions log ***
+********************************
+mock.giveMeSomeString("arg");
+ invoked: -&gt; at org.mockitousage.debugging.PrintingInvocationsWhenEverythingOkTest.businessLogicWithAsking(PrintingInvocationsWhenEverythingOkTest.java:34)
+ stubbed: -&gt; at org.mockitousage.debugging.PrintingInvocationsWhenEverythingOkTest.performStubbing(PrintingInvocationsWhenEverythingOkTest.java:30)
+mockTwo.doSomething("foo");
+ invoked: -&gt; at org.mockitousage.debugging.PrintingInvocationsWhenEverythingOkTest.businessLogicWithTelling(PrintingInvocationsWhenEverythingOkTest.java:39)
+
+</pre>
+</body>
+</html>
