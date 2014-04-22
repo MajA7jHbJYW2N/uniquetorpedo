@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright © (C) 2014
+    Emory Hughes Merryman, III
+    emory.merryman@gmail.com
+-->
+<!--
+    This file is part of dinosaurstraw.
+
+    dinosaurstraw is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    dinosaurstraw is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with dinosaurstraw.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<ivy-module version="2.0">
+    <info organisation="breezemodern" module="dinosaurstraw" revision="1.147" status="integration" publication="20140422142217"/>
+    <configurations>
+      <conf name="runtime"/>
+      <conf name="_tree_" visibility="private"/>
+      <conf name="_checkstyle_" visibility="private"/>
+      <conf name="_hollowlobster_" visibility="private"/>
+      <conf name="_easterncrayon_" visibility="private"/>
+      <conf name="_cobertura_"/>
+      <conf name="_junit_"/>
+      <conf name="_javassist_"/>
+      <conf name="_mockito-all_"/>
+      <conf name="_powermock-api-mockito_"/>
+      <conf name="_powermock-module-junit4_"/>
+      <conf name="_paranamer_"/>
+      <conf name="_guava_"/>
+    </configurations>
+    <publications defaultconf="runtime">
+      <artifact type="jar"/>
+    </publications>
+    <dependencies>
+      <dependency org="com.sun" name="tools" rev="">
+	<conf name="runtime">
+	  <mapped name="default"/>
+	</conf>
+      </dependency>
+      <dependency org="com.puppycrawl.tools" name="checkstyle" rev="5.7">
+	<conf name="_checkstyle_">
+	  <mapped name="default"/>
+	</conf>
+      </dependency>
+      <dependency org="breezemodern" name="hollowlobster" rev="3.21">
+	<conf name="_hollowlobster_">
+	  <mapped name="conf"/>
+	</conf>
+      </dependency>
+      <dependency org="breezemodern" name="easterncrayon" rev="1.34">
+	<conf name="_easterncrayon_">
+	  <mapped name="runtime"/>
+	</conf>
+      </dependency>
+      <dependency org="net.sourceforge.cobertura" name="cobertura" rev="2.0.3">
+	<conf name="_cobertura_">
+	  <mapped name="default"/>
+	</conf>
+      </dependency>
+      <dependency org="junit" name="junit" rev="4.11">
+	<conf name="_junit_">
+	  <mapped name="default"/>
+	</conf>
+      </dependency>
+      <dependency org="javassist" name="javassist" rev="3.12.1.GA">
+	<conf name="_javassist_">
+	  <mapped name="default"/>
+	</conf>
+      </dependency>
+      <dependency org="org.mockito" name="mockito-all" rev="1.9.5">
+	<conf name="_mockito-all_">
+	  <mapped name="default"/>
+	</conf>
+      </dependency>
+      <dependency org="org.powermock" name="powermock-api-mockito" rev="1.5.4">
+	<conf name="_powermock-api-mockito_">
+	  <mapped name="default"/>
+	</conf>
+      </dependency>
+      <dependency org="org.powermock" name="powermock-module-junit4" rev="1.5.4">
+	<conf name="_powermock-module-junit4_">
+	  <mapped name="default"/>
+	</conf>
+      </dependency>
+      <dependency org="com.thoughtworks.paranamer" name="paranamer" rev="2.6">
+	<conf name="_paranamer_">
+	  <mapped name="default"/>
+	</conf>
+      </dependency>
+      <dependency org="com.google.guava" name="guava" rev="r09">
+	<conf name="_guava_">
+	  <mapped name="default"/>
+	</conf>
+      </dependency>
+    </dependencies>
+</ivy-module>
